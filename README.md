@@ -37,19 +37,19 @@ Score plot of DeepMind Lab "seekavoid_arena_01" environment.
 ![seekavoid_01_score](./doc/graph_seekavoid_01.png)
 
 ## How to run
-First, dowload and install DeepMind Lab
+First, download and install DeepMind Lab
 ```
 $ git clone https://github.com/deepmind/lab.git
 ```
 Then build it following the build instruction. 
 https://github.com/deepmind/lab/blob/master/docs/build.md
 
-Clone this repo in lab directory.
+Clone this repo in `lab` directory.
 ```
 $ cd lab
 $ git clone https://github.com/miyosuda/unreal.git
 ```
-Add this bazel instrution at the end of `lab/BUILD` file
+Add this bazel instruction at the end of `lab/BUILD` file
 
 ```
 package(default_visibility = ["//visibility:public"])
